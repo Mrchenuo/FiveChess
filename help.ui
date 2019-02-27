@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Help</class>
+ <widget class="QMainWindow" name="Help">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>371</width>
+    <height>584</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>371</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/images/res/tim.png);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>371</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menunew">
+    <property name="title">
+     <string>游戏规则</string>
+    </property>
+    <addaction name="actionluozi"/>
+    <addaction name="actionwuzilianzhu"/>
+    <addaction name="actionHuoFour"/>
+    <addaction name="actionChongFour"/>
+    <addaction name="actionHuoThree"/>
+    <addaction name="actionMianThree"/>
+    <addaction name="actionMianTwo"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>关于</string>
+    </property>
+   </widget>
+   <addaction name="menunew"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionluozi">
+   <property name="text">
+    <string>落子</string>
+   </property>
+  </action>
+  <action name="actionwuzilianzhu">
+   <property name="text">
+    <string>五子连珠</string>
+   </property>
+  </action>
+  <action name="actionHuoFour">
+   <property name="text">
+    <string>活四</string>
+   </property>
+  </action>
+  <action name="actionChongFour">
+   <property name="text">
+    <string>冲四</string>
+   </property>
+  </action>
+  <action name="actionHuoThree">
+   <property name="text">
+    <string>活三</string>
+   </property>
+  </action>
+  <action name="actionMianThree">
+   <property name="text">
+    <string>眠三</string>
+   </property>
+  </action>
+  <action name="actionMianTwo">
+   <property name="text">
+    <string>活二</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
